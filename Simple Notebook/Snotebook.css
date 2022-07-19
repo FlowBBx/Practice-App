@@ -1,0 +1,58 @@
+.checked {
+    color:green;
+    text-decoration:line-through;
+}
+
+header {
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+    padding:20px 0;
+    font-family: Franklin Gothic Medium;
+    background:rgba(107, 166, 184, 0.329);
+    color:white;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    background:rgba(107, 166, 184, 0.329);;
+    padding:20px;
+    margin:0px 400px;
+    border-radius:50px;
+    
+}
+
+#check{
+    display:flex;
+    margin:10px;
+    color:white;
+    
+}
+body {
+    background-color: #cccccc; 
+    background-size:inherit;
+    background-image: url("https://wallpaper.dog/large/17103594.jpg")
+}
+
+#check:hover {
+    color:green;
+    transition:0.3s;
+    cursor:pointer;
+    
+}
+#input {
+    margin: 0px 10px;
+}
+label {
+    color:white;
+}
+
+
+
+

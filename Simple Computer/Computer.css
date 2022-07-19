@@ -1,0 +1,112 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+     background-image: url("https://previews.123rf.com/images/etiamos/etiamos1208/etiamos120800051/14823481-mathematical-equations-and-sketches-vector-illustration.jpg");;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(182, 212, 238);
+    margin:30px 370px;
+    padding: 30px;
+    border-radius: 60px;
+    border: 2px solid black;
+}
+
+header {
+    font-size:40px;
+    font-family:Franklin Gothic Medium;
+    display: flex;
+    justify-content: center;
+   
+    padding:15px 0px;
+    background:rgb(182, 212, 238);
+    
+}
+.casets {
+    box-sizing: border-box; 
+    font-size: 60px;
+    border: 2px solid black;
+    width: 100px;
+    display:flex;
+    justify-content:center;
+}
+
+.casets:hover, .zero:hover, .equal:hover {
+    background-color: rgba(173, 77, 77, 0.096);
+    transition: 0.5s;
+    cursor: pointer;
+    color:rgba(255, 0, 0, 0.685)
+}
+
+.screen {
+    box-sizing: border-box;
+    width: 400px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background:rgb(202, 236, 241);
+}
+
+.screenDirection {
+    display: flex;
+    justify-content: right;
+    height: 30px;
+    font-size: 30px;
+}
+
+input{
+    border: none;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    padding: 0px!important;
+    background:rgb(202, 236, 241);;
+}
+input:focus{
+    outline: none
+}
+
+.equal {
+    box-sizing: border-box; 
+    font-size: 60px;
+    border: 1px solid black;
+    width: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 288.5px;
+}
+.zero {
+    box-sizing: border-box; 
+    font-size: 60px;
+    border: 1px solid black;
+    width: 300px;
+    display:flex;
+    justify-content:center;
+}
+
+.red {
+    color: red;
+}
+
+button {
+    margin: 10px 0px;
+    padding: 20px;
+    font-family: fantasy;
+    background: aliceblue;
+}

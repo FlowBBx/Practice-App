@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Computer.css">
+    <script src="Computer.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple computer</title>
+</head>
+<body onload="focus()">
+    <header>
+        <div>Computer</div>
+    </header>
+
+    <main>
+        <div>
+            <div id="screen"  class="screen">
+                <div class="screenDirection" id="screen2"></div>
+                <form class="screenDirection" id="screen3"><input id="theNumbers" onkeypress="justOneCaracter(event)" type="text"></form>
+            </div>
+            
+        </div>
+        <div class="flex-row">
+            <div id="symbols" onclick="plus(0,event)" class="casets">+</div>
+            <div id="symbols" onclick="plus(1,event)" class="casets">-</div>
+            <div id="symbols" onclick="plus(2,event)" class="casets">*</div>
+            <div id="symbols" onclick="plus(3,event)" class="casets">/</div>
+        </div>
+        <div class="flex-row">
+            <div>
+                <div class="flex-row">
+                    <div id="number" onclick=numbers(0) class="casets">1</div>
+                    <div id="number" onclick=numbers(1) class="casets">2</div>
+                    <div id="number" onclick=numbers(2) class="casets">3</div>
+                </div>
+                <div class="flex-row">
+                    <div id="number" onclick=numbers(3) class="casets">4</div>
+                    <div id="number" onclick=numbers(4) class="casets">5</div>
+                    <div id="number" onclick=numbers(5) class="casets">6</div>
+                </div>
+                <div class="flex-row">
+                    <div id="number" onclick=numbers(6) class="casets">7</div>
+                    <div id="number" onclick=numbers(7) class="casets">8</div>
+                    <div id="number" onclick=numbers(8) class="casets">9</div>
+                </div>
+                <div class="flex-row">
+                    <div id="number" onclick=numbers(9) class="zero">0</div>
+                </div>
+            </div>
+            <div>
+                <div class="equal" onclick="equal(event)">=</div>
+            </div>
+        </div>
+        <div>
+            <button type="button">Clear field</button>
+        </div>
+        
+
+    </main>
+</body>
+</html>
