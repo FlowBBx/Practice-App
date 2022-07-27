@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Aplication Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+      }
+      .valid {
+        border-color: green;
+      }
+      .invalid {
+        border-color: red;
+      }
+    </style>
+    <script defer>
+      function validateEmail() {
+        let input = document.querySelector("#theMail");
+        let val = input.value;
+
+        let x = "";
+        let xml =
+          /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9]+(?:\.[a-z0-9-]+)*$/gi;
+        if (val.match(xml)) {
+          x = true;
+        } else {
+          x = false;
+        }
+        if (x === true) {
+          input.classList.add("valid");
+          document.getElementById("show").innerHTML = `Valid`;
+        } else {
+          input.classList.add("invalid");
+          document.getElementById("show").innerHTML = `Invalid`;
+        }
+      }
+
+      function theInput(par) {
+        let input = document.querySelector("#theMail");
+        if (input.classList.contains("invalid")) {
+          input.classList.remove("invalid");
+        } else if (input.classList.contains("valid")) {
+          input.classList.remove("valid");
+        }
+      }
+      console.log(validateEmail("florin.soare@gmail.com")); //true
+      console.log(validateEmail("Owner.me..7080@abcd.com")); // true
+      console.log(validateEmail("Siteowner@up.down.net")); // true
+      console.log(validateEmail("waster.dfdf.eee")); // false
+      console.log(validateEmail("@54343534W&@gmail")); // false
+    </script>
+  </head>
+  <body>
+    <main>
+      <form id="form">
+        <h3>Enter your email address</h3>
+        <input
+          type="text"
+          oninput="theInput()"
+          id="theMail"
+          placeholder="Your email"
+        />
+        <input
+          type="button"
+          onclick="validateEmail()"
+          id="Subscribe"
+          value="Subscribe me to Pbprm3"
+        />
+      </form>
+      <div id="show">There is the result</div>
+    </main>
+  </body>
+</html>
