@@ -32,12 +32,15 @@
 
         let x = "";
         let xml =
-          /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9]+(?:\.[a-z0-9-]+)*$/gi;
-        if (val.match(xml)) {
+          /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9]+(?:\.[a-z0-9-]+)/gi;
+        let xmlA= /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9]+(?:\.[a-z0-9-]+)+.((?:\.[a-z0-9-]+))/gi
+        
+        if (val.match(xml) || val.match(xmlA)) {
           x = true;
         } else {
           x = false;
         }
+        
         if (x === true) {
           input.classList.add("valid");
           document.getElementById("show").innerHTML = `Valid`;
