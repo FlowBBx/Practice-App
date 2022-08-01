@@ -289,24 +289,25 @@ img {
 .container1 {
     position:absolute;
     color:black;
+    top: -5%;
     animation: go1 2s ease forwards;
 }
 .container2 {
     position:absolute;
     color:black;
-    top: 25%;
+    top: 20%;
     animation: go2 2s ease forwards;
 }
 .container3 {
     position:absolute;
     color:black;
-    top: 50%;
+    top: 45%;
     animation: go3 2s ease forwards;
 }
 .container4 {
     position:absolute;
     color:black;
-    top: 75%;
+    top: 70%;
     animation: go4 2s ease forwards;
 }
 
@@ -317,28 +318,28 @@ img {
         from {
             left: 0%
         } to {
-            left: 35%;
+            left: 30%;
         }
     }   
     @keyframes go2 {
         from {
             left: 0%
         } to {
-            left: 35%;
+            left: 30%;
         }
     }   
     @keyframes go3 {
         from {
             left: 0%
         } to {
-            left: 35%;
+            left: 30%;
         }
     }   
     @keyframes go4 {
         from {
             left: 0%
         } to {
-            left: 35%;
+            left: 30%;
         }
     }    
 }
