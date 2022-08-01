@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.275);
+  font-weight: bold;
+  margin: 10px 0px;
+  padding: 15px 0px;
+}
+.users {
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 5px;
+}
+.a {
+  margin: 0 9%;
+}
+.b {
+  margin-right: 9%;
+}
+.c {
+  margin-right: 10%;
+}
+.d {
+  margin-right: 12%;
+}
+.e {
+  margin-right: 12%;
+}
+.f {
+  margin: 0 5%;
+}
+.image {
+  margin: 0 4.5%;
+}
+.name {
+  width: 80px;
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  width: 150px;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company {
+  width: 150px;
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  width: 220px;
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.webpage {
+  width: 40px;
+  margin: 4% 0%;
+}
+
+body {
+  background-image: url("Image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+button {
+  border: 3px;
+  border-radius: 4px;
+  color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  transition: all 0.6s ease 0s;
+}
+
+@media screen and (max-width: 949px) {
+.list {
+    display: none;  
+}
+  #user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  img {
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .name {
+    font-size: 30px;
+    width: 260px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .address {
+    font-size: 15px;
+    width: 300px;
+    margin: 0;
+  }
+  .company {
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .details {
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .webpage {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1084px) {
+  .a {
+    margin: 0 6%;
+  }
+  .b {
+    margin-right: 8%;
+  }
+  .c {
+    margin-right: 10%;
+  }
+  .d {
+    margin-right: 12%;
+  }
+  .e {
+    margin-right: 12%;
+  }
+  .f {
+    margin: 0 5%;
+  }
+
+  .image {
+    margin: 0 1%;
+  }
+  .name {
+    margin-right: 1%;
+  }
+  .address {
+    width: 130px;
+    margin-right: 2%;
+  }
+
+  .company {
+    width: 140px;
+    margin-right: 2%;
+  }
+
+  .details {
+    width: 180px;
+    margin-right: 8%;
+  }
+
+  button {
+    padding: 10px 14px;
+  }
+}
+
+@media screen and (min-width: 1085px) and (max-width: 1150px) {
+  .a {
+    margin: 0 7.5%;
+  }
+  .b {
+    margin-right: 8%;
+  }
+  .c {
+    margin-right: 10%;
+  }
+  .d {
+    margin-right: 12%;
+  }
+  .e {
+    margin-right: 12%;
+  }
+  .f {
+    margin: 0 5%;
+  }
+  .image {
+    margin: 0 4.5%;
+  }
+
+  .image {
+    margin: 0 3%;
+  }
+  .name {
+    width: 80px;
+    margin-right: 3%;
+  }
+
+  .address {
+    width: 150px;
+    margin-right: 1%;
+  }
+
+  .company {
+    width: 150px;
+    margin-right: 3%;
+  }
+
+  .details {
+    width: 220px;
+    margin-right: 5%;
+  }
+
+  .webpage {
+    width: 40px;
+    margin: 4% 0%;
+  }
+
+  button {
+    padding: 14px 18px;
+  }
+}

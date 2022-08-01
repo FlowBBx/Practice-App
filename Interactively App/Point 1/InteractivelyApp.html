@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListApp</title>
+    <script src="InteractivelyFunctionality.js" defer></script>
+    <link rel="stylesheet" href="InteractivelyDesign.css">
+</head>
+<body onload="getData()">
+    <header>
+        <h2>User List</h2>
+    </header>
+    <main>
+        <div class="buttons">
+            <button type="button" onclick="sortList( 1, 'name')">Sort ascending</button>
+            <button type="button" onclick="sortList( 2, 'name')">Sort descending</button>
+        </div>
+        <div id="list" >
+            <div class="list">
+                <div class="a" >Image</div>
+                <div class="b">Name</div>
+                <div class="c">Address</div>
+                <div class="d">Company</div>
+                <div class="e">Details</div>
+                <div class="f">Webpage</div>
+            </div>
+            <div id="user"></div>
+        </div>
+    </main>
+</body>
+</html>
