@@ -397,7 +397,7 @@ img {
       left: 0%;
     }
     to {
-      left: 3%;
+      left: 1%;
     }
   }
   @keyframes go2 {
@@ -405,7 +405,7 @@ img {
       left: 0%;
     }
     to {
-      left: 3%;
+      left: 1%;
     }
   }
   @keyframes go3 {
@@ -413,7 +413,7 @@ img {
       left: 0%;
     }
     to {
-      left: 3%;
+      left: 1%;
     }
   }
   @keyframes go4 {
@@ -421,7 +421,7 @@ img {
       left: 0%;
     }
     to {
-      left: 3%;
+      left: 1%;
     }
   }
 
