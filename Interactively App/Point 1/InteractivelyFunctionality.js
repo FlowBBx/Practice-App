@@ -60,7 +60,7 @@ function sortList (idx, name) {
         state.sort( (a,b) => {
             if (a.name < b.name) {
                 return -1;
-            } else if (a.title > b.title) {
+            } else if (a.name > b.name) {
                 return 1;
             } else {
                 return 0;
@@ -71,7 +71,7 @@ function sortList (idx, name) {
         state.sort((a,b) => {
             if (a.name > b.name) {
                 return -1;
-            } else if (a.title < b.title) {
+            } else if (a.name < b.name) {
                 return 1;
             } else {
                 return 0;
