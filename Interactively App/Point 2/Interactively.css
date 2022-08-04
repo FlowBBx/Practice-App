@@ -1,400 +1,57 @@
 .design {
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  max-height: 1080px;
+}
+
+.design .box {
+  flex: 1 0 49%;
+  max-width: 49%;
   position: relative;
+  margin: 4px;
 }
-img {
+
+.design .box div {
   width: 100%;
-  height: 455px;
+  height: 100%;
 }
-.container1 {
+
+.design .box div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.design .box p {
+  font-size: 50px;
+  font-weight: 600;
   position: absolute;
-  color: black;
-  top: 5%;
-  left: 20%;
-  animation: go1 2s ease forwards;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  z-index: 3;
 }
-.container2 {
+
+.design .box::before {
+  content: '';
+  background: rgba(0, 0, 0, 0.4);
   position: absolute;
-  color: black;
-  top: 5%;
-  left: 70%;
-  animation: go2 2s ease forwards;
-}
-.container3 {
-  position: absolute;
-  color: black;
-  top: 55%;
-  left: 20%;
-  animation: go3 2s ease forwards;
-}
-.container4 {
-  position: absolute;
-  color: black;
-  top: 55%;
-  left: 70%;
-  animation: go4 2s ease forwards;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2;
 }
 
-.container4,
-.container3,
-.container2,
-.container1 {
-  font-size: 130px;
-}
-.container1:hover,
-.container2:hover,
-.container3:hover,
-.container4:hover {
-  font-weight: bold;
-  color: red;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-@keyframes go1 {
-  from {
-    left: 0%;
+@media screen and (max-width: 767px) {
+  .design .box {
+    flex: 1 0 100%;
+    max-width: 100%;
   }
-  to {
-    left: 20%;
+
+  .design .box p {
+    font-size: 30px;
   }
 }
-@keyframes go2 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: 70%;
-  }
-}
-@keyframes go3 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: 20%;
-  }
-}
-@keyframes go4 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: 70%;
-  }
-}
-
-@media (max-height: 820px) {
-  img {
-    width: 100%;
-    height: 390px;
-  }
-  .container1 {
-    top: 1%;
-    left: 20%;
-  }
-  .container2 {
-    top: 1%;
-    left: 70%;
-  }
-  .container3 {
-    top: 50%;
-    left: 20%;
-  }
-  .container4 {
-    top: 50%;
-    left: 70%;
-  }
-}
-
-@media (max-height: 750px) {
-  img {
-    width: 100%;
-    height: 360px;
-  }
-  .container1 {
-    top: -7%;
-  }
-  .container2 {
-    top: -7%;
-  }
-  .container3 {
-    top: 45%;
-  }
-  .container4 {
-    top: 45%;
-  }
-  @keyframes go1 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 15%;
-    }
-  }
-  @keyframes go2 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 65%;
-    }
-  }
-  @keyframes go3 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 15%;
-    }
-  }
-  @keyframes go4 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 65%;
-    }
-  }
-}
-
-@media (max-height: 700px) {
-  img {
-    width: 100%;
-    height: 330px;
-  }
-}
-
-@media (max-width: 900px) {
-  .design {
-    display: flex;
-    flex-direction: column;
-  }
-  .container1 {
-    position: absolute;
-  }
-  .container2 {
-    position: absolute;
-
-    top: 25%;
-  }
-  .container3 {
-    position: absolute;
-
-    top: 50%;
-  }
-  .container4 {
-    position: absolute;
-
-    top: 75%;
-  }
-
-  @keyframes go1 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go2 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go3 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go4 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-}
-
-@media (max-width: 600px) and (min-width: 768px) {
-  .design {
-    display: flex;
-    flex-direction: column;
-  }
-  .container1 {
-    position: absolute;
-  }
-  .container2 {
-    position: absolute;
-
-    top: 25%;
-  }
-  .container3 {
-    position: absolute;
-
-    top: 50%;
-  }
-  .container4 {
-    position: absolute;
-
-    top: 75%;
-  }
-
-  @keyframes go1 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go2 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go3 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go4 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .design {
-    display: flex;
-    flex-direction: column;
-  }
-  .container1 {
-    position: absolute;
-  }
-  .container2 {
-    position: absolute;
-
-    top: 25%;
-  }
-  .container3 {
-    position: absolute;
-
-    top: 50%;
-  }
-  .container4 {
-    position: absolute;
-
-    top: 75%;
-  }
-
-  @keyframes go1 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go2 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go3 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go4 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-}
-
-@media (max-height: 600px) {
-  .design {
-    display: flex;
-    flex-direction: column;
-  }
-  .container1 {
-    position: absolute;
-  }
-  .container2 {
-    position: absolute;
-
-    top: 25%;
-  }
-  .container3 {
-    position: absolute;
-
-    top: 50%;
-  }
-  .container4 {
-    position: absolute;
-    top: 75%;
-  }
-
-  @keyframes go1 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go2 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go3 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-  @keyframes go4 {
-    from {
-      left: 0%;
-    }
-    to {
-      left: 35%;
-    }
-  }
-}
-/* s */
