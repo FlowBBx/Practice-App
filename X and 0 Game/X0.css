@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    }
+    
+    .grid {
+        display:grid;
+        grid-template-columns: 300px 300px 300px ;
+        grid-template-rows:  300px 300px 300px ;
+        margin: 0 auto;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        text-align: center;
+        color:red;
+        font-size:30px;
+        padding:10px;
+        margin-bottom:10px;
+        background-color:#f0f8ff6e;
+    }
+    
+    div {
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+    }
+    body{
+        background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
