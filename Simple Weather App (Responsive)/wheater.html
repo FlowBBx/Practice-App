@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wheater.css">
+    <script src="wheater.js" defer></script>
+    <title>Simple weather app</title>
+</head>
+<body>
+    <div class="hero"></div>
+    <header>
+        <div>Wheater App (Simple)</div>
+        <div id="clock" onload="timer()">
+
+        </div>
+    
+    </header>
+    <main>
+        <div>
+            <div id="inputType">
+                <label for="input">
+                    Please inset the location:
+                    <input type="text" id="input">
+                    <input type="button" value="Search" onclick="getData()">
+                </label>
+            </div>
+            <div id="valuesOfApp">
+                <div class="loadingio-spinner-gear-2e1276zu1ml">
+                    <div class="ldio-4d6j0zxf30d">
+                    <div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                    </div></div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
