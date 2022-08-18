@@ -33,7 +33,12 @@ async function timer () {
 timer();
 
 function draw() {
-    document.querySelector("#valuesOfApp").innerHTML = `
+    if(database.cod === "404") {
+        document.querySelector("#valuesOfApp").innerHTML =`
+            <h3> The location wasn't find, please try again! </h3>
+        `
+    } else {
+        document.querySelector("#valuesOfApp").innerHTML = `
     <div>
         <img src="http://openweathermap.org/img/w/${database.weather[0].icon}.png"
     </div>
@@ -46,4 +51,6 @@ function draw() {
         <div>Wind: <strong>${database.wind.speed} km/h </strong></div>
     </div>    
     `
+    }
+    
 }
