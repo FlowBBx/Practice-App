@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+}
+td {
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#tableOfDatabase {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#tableOfDatabase thead tr {
+  background-color: #46526ecf;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  height: 50px;
+}
+
+#tableOfDatabasee th,
+#tableOfDatabase td {
+  padding: 32px 15px;
+}
+
+#tableOfDatabase tbody tr {
+  border-bottom: 8px solid #dddddd;
+}
+
+#tableOfDatabase tbody tr:nth-of-type(even) {
+  background-color: #b7bdb66b;
+}
+
+#tableOfDatabase tbody tr:last-of-type {
+  border-bottom: 2px solid #777c7b;
+}
+
+body {
+  position: relative;
+}
+header {
+  background-color: #000000bf;
+  color: white;
+  padding: 20px;
+  font-family: monospace;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header button {
+  margin: 0 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: gray;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+}
+header button:hover {
+  cursor: pointer;
+  background-color: #181515d6;
+  transition: 1s;
+}
+a {
+  padding: 10px 20px;
+  background-color: #445383ba;
+  color: white;
+  font-family: ui-monospace;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: #022c71;
+  transition: 0.5s;
+}
+
+body {
+  background: linear-gradient(90deg, #5e4e4e8f, #f8f8f8);
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 390px;
+  height: 300px;
+  background-color: #0000001a;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+[type="text"],
+[type="password"] {
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+[type="text"]:hover,
+[type="password"]:hover {
+  border: 1px solid #0000ff73;
+  transition: 0.3s;
+}
+[type="submit"] {
+  font-size: 20px;
+  border: none;
+  font-size: 15px;
+  padding: 10px 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+[type="submit"]:hover {
+  border: 1px solid #0000ff2e;
+  transition: 0.2s;
+  background: #c0c7ce;
+  cursor: pointer;
+}

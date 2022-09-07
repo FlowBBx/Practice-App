@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florin's Apps</title>
+    <script src="Project apps.js" defer></script>
+    <link rel="stylesheet" href="Project Apps.css" />
+  </head>
+  <body onload="getData()">
+    <header>
+      Florin's Project List
+      <button type="button" onclick="formOfLogin(this)">Add Project</button>
+    </header>
+    <main>
+      <div id="login" class="hidden">
+        <div>Please Login to continue</div>
+        <form>
+          <label for="username">
+            Username:
+            <input id="username" type="text" />
+          </label>
+          <label for="password">
+            Password :
+            <input id="password" type="password" />
+          </label>
+          <label for="submit">
+            <input type="submit" onclick="log(this,event)" value="login" />
+          </label>
+        </form>
+      </div>
+      <div id="tableOfDatabase">
+        <table style="width: 100%">
+          <thead>
+            <th style="width: 20%">Aplication name</th>
+            <th style="width: 10%">Difficulty</th>
+            <th style="width: 30%">Concepts Applied</th>
+            <th style="width: 20%">Description</th>
+            <th style="width: auto">link</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

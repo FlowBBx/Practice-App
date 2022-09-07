@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+}
+body {
+  background: linear-gradient(90deg, #5e4e4e8f, #f8f8f8);
+}
+label {
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+  width: 250px;
+}
+input {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+input:hover,
+textarea:hover {
+  border: 1px solid #18d41ed1;
+  box-shadow: rgb(50 93 61 / 70%) 0px 6px 12px -2px,
+    rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  transition: 0.3s;
+}
+#addInput {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.color {
+  color: red;
+}
+.border {
+  border-color: red;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #00000091;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+textarea {
+  max-width: 244.5px;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+main > div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 300px;
+  padding: 10px;
+  background: #816f6f82;
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button {
+  border: none;
+  font-size: 15px;
+  padding: 10px 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -6px 6px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -9px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 2px 16px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+header > button {
+  margin-left: 30px;
+}
+#addInput {
+  margin-top: 10px;
+}
+
+.titles {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 30px auto;
+  border: 1px solid #5e5757;
+  max-width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  height: 120px;
+}
+.del {
+  margin-top: 10px;
+  color: red;
+  font-weight: bolder;
+}
+/* Temporary design */

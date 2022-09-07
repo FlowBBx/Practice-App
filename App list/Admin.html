@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="admin.js" defer></script>
+    <link rel="stylesheet" href="Admin.css" />
+    <title>Admin</title>
+  </head>
+  <body onload="getData()">
+    <header>
+      <h1>Admin</h1>
+      <button type="button" id="s" onclick="showProjects()">
+        Show Projects
+      </button>
+    </header>
+    <main>
+      <form action="">
+        <label for="Aplication name">
+          Aplication name:
+          <input type="text" id="appName" />
+        </label>
+        <label for="Difficulty">
+          Difficulty:
+          <input type="number" id="difficulty" placeholder="1-5" value="1" />
+        </label>
+        <label for="1" id="theLab">
+          Concepts Applied:
+          <input type="text" id="concepts" />
+          <button type="button" id="addInput" onclick="inputs()">+</button>
+        </label>
+        <label>
+          Description:
+          <textarea id="description"></textarea>
+        </label>
+        <label>
+          link:
+          <input type="text" id="link" />
+        </label>
+      </form>
+      <div>
+        <button id="finished" onclick="addElement()" type="button">
+          Submit
+        </button>
+      </div>
+    </main>
+    <div id="table" class="hidden"></div>
+  </body>
+</html>

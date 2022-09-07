@@ -1,0 +1,82 @@
+[
+  {
+    "App": "Website (Scoala informala de IT)",
+    "Difficulty": "5",
+    "ConceptApp": [
+      "AJAX",
+      "CRUD",
+      "OPP",
+      "Bootstrap",
+      "Firebase",
+      "ES5",
+      "API",
+      "LocalStorage",
+      "FlowControl",
+      "CSS",
+      "HTML",
+      "Responsive",
+      "DOM",
+      "ImportStyle",
+      "Database",
+      "JSON"
+    ],
+    "Description": "My final project from 'Scoala Informala de IT'... There I was learning about Web Development and I started to build Web apps and websites with good functionality and beautiful design",
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Final%20Project/homepage.html"
+  },
+  {
+    "App": "Phone number saver App (Scoala informala de IT)",
+    "Difficulty": "2",
+    "ConceptApp": ["OPP", "ES5", "FlowControl", "CSS", "HTML"],
+    "Description": "One of the firs aplication what we creatend on the course stage",
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects/Notebook/agenda.html"
+  },
+  {
+    "App": "Shopping list (Scoala informala de IT)",
+    "Difficulty": "2",
+    "ConceptApp": ["OPP", "ES5", "FlowControl", "CSS", "HTML", "Logical_ALG"],
+    "Description": "This is another homework form the course stage",
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects/Shopping%20list/Shop.html"
+  },
+  {
+    "App": "Weather App (Scoala informala de IT)",
+    "Difficulty": "3",
+    "ConceptApp": ["AJAX", "json", "OPP", "FlowControl", "CSS", "HTML", "API"],
+    "Description": "The most complicated app form the course... it's not responsive because i didn't pratice enough CSS in that period",
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects/The%20weather/Vremea.html"
+  },
+  {
+    "App": "Simple Computer",
+    "Difficulty": "1",
+    "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
+    "Description": "After the course i have created simple apps to practice my new skills",
+    "link": "https://flowbbx.github.io/Practice-App/Simple%20Computer/Computer.html"
+  },
+  {
+    "App": "Simple Game (Rock, paper, scissors)",
+    "Difficulty": "2",
+    "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
+    "Description": "After the course i have created simple apps to practice my new skills",
+    "link": "https://flowbbx.github.io/Practice-App/Simple%20Game%20(Rock,%20paper,%20scissors)/game%20(JS,CSS,HTML).html"
+  },
+  {
+    "App": "X and 0 Game",
+    "Difficulty": "1",
+    "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
+    "Description": "I have a little bug at thiss app, on the X.SVG item and i have to repair this(De refacut)",
+    "link": "https://flowbbx.github.io/Practice-App/X%20and%200%20Game/X0.html"
+  },
+  {
+    "App": "Simple Notebook",
+    "Difficulty": "1",
+    "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
+    "Description": "After the course i have created simple apps to practice my new skills",
+    "link": "https://flowbbx.github.io/Practice-App/Simple%20Notebook/Snotebook.html"
+  },
+  {
+    "App": "Wheater App (Simple)",
+    "Difficulty": "2",
+    "ConceptApp": ["AJAX", "json", "OPP", "FlowControl", "CSS", "HTML", "API"],
+    "Description": "Is not responsive for moment and I'm still working for design.",
+    "link": "https://flowbbx.github.io/Practice-App/Simple%20Weather%20App%20(Responsive)/wheater.html"
+  }
+]
