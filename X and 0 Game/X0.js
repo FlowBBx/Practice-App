@@ -19,7 +19,7 @@ function play(idx) {
         turn = 2;
       } else if (turn === 2) {
         state[idx] = false;
-        my[idx].innerHTML = `<img style="width:300px;,height:300px;" src="x.svg">`;
+        my[idx].innerHTML = `<img style="width:300px;,height:300px;" src="X.svg">`;
         turn = 1;
       }
 
