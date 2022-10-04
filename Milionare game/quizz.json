@@ -1,0 +1,635 @@
+[
+    [
+        {
+            "quest":"La ce data s-a declarat oficial pacea dupa Primul Razboi Mondial?",
+            "a":"a) 11.11.1918",
+            "b":"b) 31.03.1919",
+            "c":"c) 07.02.1919",
+            "d":"d) 01.08.1919",
+            "id":"1"
+        },
+        {
+            "quest":"Ce cuvânt ai putea folosi pentru a caracteriza un loc unde găseşti mare dezordine?",
+            "a":"a) Cacealma",
+            "b":"b) Jubilatie",
+            "c":"c) Haraci",
+            "d":"d) Harababură",
+            "id":"4"
+        },
+        {
+            "quest":"Conturul cărei ţări are formă de cizmă?",
+            "a":"a) Franta",
+            "b":"b) Italia",
+            "c":"c) Polonia",
+            "d":"d) Ungaria",
+            "id":"2"
+        },
+        {
+            "quest":"Ce rapsodie a compus George Enescu?",
+            "a":"a) Ungara",
+            "b":"b) Romana",
+            "c":"c) Germana",
+            "d":"d) Turca",
+            "id":"2"
+        },
+        {
+            "quest":"Cine era soţul reginei Victoria a Marii Britanii?",
+            "a":"a) Printul Mihai",
+            "b":"b) Printul Carol",
+            "c":"c) Printul Albert",
+            "d":"d) Micul Print",
+            "id":"3"
+        }
+    ],
+    [
+        {
+            "quest":"Prometeu a furat de la zei şi a dat oamenilor raţiunea şi:",
+            "a":"apa",
+            "b":"aerul",
+            "c":"mancarea",
+            "d":"focul",
+            "id":"4"
+        },
+        {
+            "quest":"În care dintre următoarele ţări există un împărat în exerciţiul funcţiei sale?",
+            "a":"a) China",
+            "b":"b) Japonia",
+            "c":"c) Egipt",
+            "d":"d) Bulgaria",
+            "id":"2"
+        },
+        {
+            "quest":"Cum se numeşte fluviul sacru al Indiei?",
+            "a":"a) Obi",
+            "b":"b) Gange",
+            "c":"c) Amazon",
+            "d":"d) Nil",
+            "id":"2"
+        },
+        {
+            "quest":"În ce ţară s-a născut stilul elisabetan?",
+            "a":"a) Rusia ",
+            "b":"b) Angola",
+            "c":"c) Romania",
+            "d":"d) Anglia",
+            "id":"4"
+        },
+        {
+            "quest":"Cine a scris poezia 'Pe lângă plopii fără soţ' ?",
+            "a":"a) Ion Minulescu",
+            "b":"b) Tudor Arghezi ",
+            "c":"c) Lucian Blaga",
+            "d":"d) Mihai Eminescu",
+            "id":"4"
+        }
+    ],
+    [
+        {
+            "quest":"În ce sport se întâlneşte de obicei figura denumită 'clinci'?",
+            "a":"a) Sah",
+            "b":"b) Gimnastica",
+            "c":"c) Box",
+            "d":"d) Raliu",
+            "id":"3"
+        },
+        {
+            "quest":"Care dintre următoarele variante este un exemplu de barter?",
+            "a":"a) îţi iau tot",
+            "b":"b) îţi dau un măr pentru o pară",
+            "c":"c) merg fără bilet",
+            "d":"d) dau 1 leu pentru Ateneu",
+            "id":"2"
+        },
+        {
+            "quest":"Ce curent a marcat cel mai mult opera lui Joan Miró?",
+            "a":"a) renascentist",
+            "b":"b) romantic",
+            "c":"c) manierist",
+            "d":"d) suprarealist",
+            "id":"4"
+        },
+        {
+            "quest":"In propozitia : 'Si eu am fost la bunici...', cuvantul 'si' este un :",
+            "a":"a) Adverb ",
+            "b":"b) Conjunctie",
+            "c":"c) Prepozitie",
+            "d":"d) Pronume",
+            "id":"1"
+        },
+        {
+            "quest":"Principala ţintă a invaziei mongole din anii 1241 / 1242, în Europa centrală a reprezentat-o...?",
+            "a":"a) Transilvania",
+            "b":"b) Ungaria",
+            "c":"c) Polonia",
+            "d":"d) Moldova",
+            "id":"2"
+        }
+    ],
+    [
+        {
+            "quest":"Ce lichid nutritiv circulă prin vasele capilare ale plantelor?",
+            "a":"a) plasmă",
+            "b":"b) limfă",
+            "c":"c) sevă",
+            "d":"d) ser",
+            "id":"3"
+        },
+        {
+            "quest":"Prima fiinţă care a efectuat un zbor în afara spaţiului terestru a fost:",
+            "a":"a) un om",
+            "b":"b) o pisică ",
+            "c":"c) un câine",
+            "d":"d) un hamster",
+            "id":"3"
+        },
+        {
+            "quest":"Starea morbidă care constă în nevoia de a simula o boală se numește:",
+            "a":"a) patomimie",
+            "b":"b) pantomimă",
+            "c":"c) patologie",
+            "d":"d) simulacru",
+            "id":"1"
+        },
+        {
+            "quest":"Cum se mai numește foaia de dafin?",
+            "a":"a) laur",
+            "b":"b) cimbru",
+            "c":"c) mărar",
+            "d":"d) păstârnac",
+            "id":"1"
+        },
+        {
+            "quest":"De care dintre următoarele domenii de activitate este legat numele Pan Am?",
+            "a":"a) fast food",
+            "b":"b) transport maritim",
+            "c":"c) agricultură",
+            "d":"d) transport aerian",
+            "id":"4"
+        }
+    ],
+    [
+        {
+            "quest":"Cum s-a numit unul dintre cele mai puternice uragane ale sec. XXI?",
+            "a":"a) Simson",
+            "b":"b) Katrina",
+            "c":"c) Hurakan",
+            "d":"d) Safura",
+            "id":"2"
+        },
+        {
+            "quest":"Care este cel mai lung os din corpul omenesc?",
+            "a":"a) humerus",
+            "b":"b) femur ",
+            "c":"c) tibia",
+            "d":"d) peroneul",
+            "id":"2"
+        },
+        {
+            "quest":"Cine a fost ales Presedinte al Republicii Moldova in anul 2012?",
+            "a":"a) Ghimpu ",
+            "b":"b) Voronin",
+            "c":"c) Lupu",
+            "d":"d) Timofti",
+            "id":"4"
+        },
+        {
+            "quest":"Care este principala religie în Indonezia, după numărul de aderenţi?",
+            "a":"a) musulmană",
+            "b":"b) hindusă",
+            "c":"c) creştinismul",
+            "d":"d) iudaismul",
+            "id":"1"
+        },
+        {
+            "quest":"Ce este o butadă?",
+            "a":"a) o băutură spirtoasă",
+            "b":"b) o vorbă de spirit",
+            "c":"c) un gaz de butelie",
+            "d":"d) o pasăre răpitoare",
+            "id":"2"
+        }
+    ],
+    [
+        {
+            "quest":"Când auzi cuvântul 'clupă' te gândești la:",
+            "a":"a) un fruct ",
+            "b":"b) o unealtă de măsurat",
+            "c":"c) un compus chimic",
+            "d":"d) un termen juridic",
+            "id":"2"
+        },
+        {
+            "quest":"Câte simfonii a compus Ludwig van Beethoven?",
+            "a":"a) 7",
+            "b":"b) 8 ",
+            "c":"c) 9",
+            "d":"d) 10",
+            "id":"3"
+        },
+        {
+            "quest":"Ce gen muzical are legătură strânsă cu dansul?",
+            "a":"a) psalmodia",
+            "b":"b) oratoriul",
+            "c":"c) recviemul",
+            "d":"d) suita",
+            "id":"4"
+        },
+        {
+            "quest":"Artist care a lucrat timp de 4 ani la zugrăvirea boltei Capelei Sixtine:",
+            "a":"a) Michelangelo",
+            "b":"b) Leonardo da Vinci",
+            "c":"c) Francesco Granacci",
+            "d":"d)  Donatello",
+            "id":"1"
+        },
+        {
+            "quest":"Care a fost cel mai popular și urmărit serial de televiziune?",
+            "a":"a) Lost",
+            "b":"b) Colombo",
+            "c":"c) M.A.S.H",
+            "d":"d) Dallas",
+            "id":"4"
+        }
+    ],
+    [
+        {
+            "quest":"Unde a fost terminat de costruit Titanicul, în 1912?",
+            "a":"a) New York",
+            "b":"b) Londra",
+            "c":"c) Belfast",
+            "d":"d) Oslo",
+            "id":"3"
+        },
+        {
+            "quest":"La jocul de snooker, care bilă valorează 6 puncte?",
+            "a":"a) maro ",
+            "b":"b) roz ",
+            "c":"c) verde",
+            "d":"d) galbenă",
+            "id":"2"
+        },
+        {
+            "quest":"Când a avut loc abdicarea fără condiții a lui Napoleon Bonaparte?",
+            "a":"a) 1805",
+            "b":"b) 1821",
+            "c":"c) 1814",
+            "d":"d) 1832",
+            "id":"3"
+        },
+        {
+            "quest":"Ce personalitate britanică are reședința în Londra, Downing Street 10?",
+            "a":"a) Regina Marii Britanii ",
+            "b":"b) prințul Charles",
+            "c":"c) primul ministru",
+            "d":"d)  primarul Londrei",
+            "id":"3"
+        },
+        {
+            "quest":"Ce poliedru regulat are 20 de fețe?",
+            "a":"a) dodecaedrul",
+            "b":"b) hexaedrul",
+            "c":"c) icosaedrul",
+            "d":"d) tetraedrul",
+            "id":"3"
+        }
+    ],
+    [
+        {
+            "quest":"Cărui stat aparțin Insulele Pitcairn?",
+            "a":"a) Portugalia",
+            "b":"b) Spania",
+            "c":"c) Franța",
+            "d":"d) Marea Britanie",
+            "id":"4"
+        },
+        {
+            "quest":"PRUTUL, care izvoraste in muntii HOVERLA,UCRAINA are o lungime de:",
+            "a":"a) 375 km",
+            "b":"b) 631 km ",
+            "c":"c) 811 km",
+            "d":"d) 953 km",
+            "id":"4"
+        },
+        {
+            "quest":"Franz Schubert a scris un celebru lied închinat unui pește. Acesta este:",
+            "a":"a) linul ",
+            "b":"b) somnul",
+            "c":"c) crapul",
+            "d":"d) păstrăvul",
+            "id":"4"
+        },
+        {
+            "quest":"Cui îi aparțin cuvintele 'tăcerea este strigătul celui mai puternic':",
+            "a":"a) Sigmund Freud",
+            "b":"b) Emil Cioran",
+            "c":"c) Arthur Schopenhauer",
+            "d":"d) Karl Marx",
+            "id":"3"
+        },
+        {
+            "quest":"Cine a scris tragedia 'Moartea lui Wallenstein'?",
+            "a":"a) Friedrich Caspar",
+            "b":"b) Friedrich Schiller",
+            "c":"c) David Friedrich",
+            "d":"d) Friedrich Kellner",
+            "id":"2"
+        }
+    ],
+    [
+        {
+            "quest":"Cine este autorul 'Istoriei ieroglifice'?",
+            "a":"a) Iacob Negruzzi",
+            "b":"b) Constantin Brâncoveanu",
+            "c":"c) Nicolae Milescu",
+            "d":"d) Dimitrie Cantemir",
+            "id":"4"
+        },
+        {
+            "quest":"La ce culori reacționează ('se înfurie') taurul?",
+            "a":"a) portocalie",
+            "b":"b) roșie",
+            "c":"c) verde",
+            "d":"d) la nici una",
+            "id":"4"
+        },
+        {
+            "quest":"În ce an a castigat Ruslana cu piesa ,,Wild Dancers'', faimosul concurs Eurovision reprezentand Ukraina?",
+            "a":"a) 1990",
+            "b":"b) 2007",
+            "c":"c) 2012",
+            "d":"d) 2004",
+            "id":"4"
+        },
+        {
+            "quest":"Cine a compus opereta 'MAREA DUCESA DE GEROLSTEIN'?",
+            "a":"a) Jaques Offenbach ",
+            "b":"b) Pal Abraham",
+            "c":"c) Emmerich Kalman",
+            "d":"d) Johann Strauss fiul",
+            "id":"1"
+        },
+        {
+            "quest":"Care este capitala statului Togo?",
+            "a":"a) Lomé",
+            "b":"b) Porto Novo",
+            "c":"c) Yamoussoukro",
+            "d":"d) Accra",
+            "id":"1"
+        }
+    ],
+    [
+        {
+            "quest":"Cine este autorul 'Istoriei ieroglifice'?",
+            "a":"a) Iacob Negruzzi",
+            "b":"b) Constantin Brâncoveanu",
+            "c":"c) Nicolae Milescu",
+            "d":"d) Dimitrie Cantemir",
+            "id":"4"
+        },
+        {
+            "quest":"Ce inaltime avea Colosul din Rhodos?",
+            "a":"a) 24 m ",
+            "b":"b) 33 m",
+            "c":"c) 48 m",
+            "d":"d) 60 m",
+            "id":"2"
+        },
+        {
+            "quest":"Câte simfonii au compus împreună Beethoven și Brahms?",
+            "a":"a) 7",
+            "b":"b) 13",
+            "c":"c) 18",
+            "d":"d) 22",
+            "id":"2"
+        },
+        {
+            "quest":"Cine a fost primul campion mondial oficial de sah?",
+            "a":"a) Em.Lasker",
+            "b":"b) Wilhelm Steinitz",
+            "c":"c) EJose Raul Capablanca",
+            "d":"d) Max Euwe",
+            "id":"2"
+        },
+        {
+            "quest":"În ce an bancnotele şi monedele euro au înlocuit monedele naţionale din 12 state membre ale Uniunii Europene?",
+            "a":"a) 1999",
+            "b":"b) 2002",
+            "c":"c) 2000",
+            "d":"d) 1998",
+            "id":"2"
+        }
+    ],
+    [
+        {
+            "quest":"Unde a activat ca preot şi compozitor cel ce a fost supranumit 'Preotul roşu'?",
+            "a":"a) Padova",
+            "b":"b) Roma",
+            "c":"c) Veneţia",
+            "d":"d) Genova",
+            "id":"3"
+        },
+        {
+            "quest":"Care este capitala statului Mauritius?",
+            "a":"a) Saint Denis",
+            "b":"b) Port Louis",
+            "c":"c) Mamoudzou",
+            "d":"d) Moroni",
+            "id":"2"
+        },
+        {
+            "quest":"În ce an și-a băut Socrate cupa cu cucută?",
+            "a":"a) 377 î.Hr.",
+            "b":"b) 399 î.Hr.",
+            "c":"c) 422 î.Hr.",
+            "d":"d) 404 î.Hr.",
+            "id":"2"
+        },
+        {
+            "quest":"Ce a creat în 1887 medicul oftalmolog Ludwig Lazarus Zamenhof?",
+            "a":"a) ochelarii de soare",
+            "b":"b) camera de filmat",
+            "c":"c) limba artificială Esperanto",
+            "d":"d) lentilele de contact",
+            "id":"3"
+        },
+        {
+            "quest":"Ale cui erau grajdurile pe care a trebuit să le cureţe Hercule în cadrul celor 12 munci?",
+            "a":"a) Zeus ",
+            "b":"b) Cresus",
+            "c":"c) Augias",
+            "d":"d) Minos",
+            "id":"3"
+        }
+    ],
+    [
+        {
+            "quest":"Cate oua depune un ornitorinc (femela)pe an?",
+            "a":"a) 0 oua",
+            "b":"b) 50-60 oua",
+            "c":"c) 1-3 oua",
+            "d":"d) 10-12 oua",
+            "id":"3"
+        },
+        {
+            "quest":"Ce naţionalitate avea arhitectul după planurile căruia a fost construit Palatul Cotroceni din Bucureşti?",
+            "a":"a) germană ",
+            "b":"b) franceză",
+            "c":"c) română",
+            "d":"d) italiană",
+            "id":"2"
+        },
+        {
+            "quest":"Care din urmatorii a avut o compozitie numita 'Anotimpurile'?",
+            "a":"a) P.I.Ceaikovski ",
+            "b":"b) A.Vivaldi",
+            "c":"c) J.Hajdn",
+            "d":"d) Fiecare din cei amintiti",
+            "id":"4"
+        },
+        {
+            "quest":"Desdemona, soţia nefericită a maurului Othelo era originară din:",
+            "a":"a) Paris",
+            "b":"b) Verona",
+            "c":"c) Mantua",
+            "d":"d) Veneţia",
+            "id":"4"
+        },
+        {
+            "quest":"Cine a fost primul președinte fost senator al S.U.A.?",
+            "a":"a) Andrew Jackson",
+            "b":"b) James Monroe",
+            "c":"c) Andrew Johnson",
+            "d":"d) James Madison",
+            "id":"4"
+        }
+    ],
+    [
+        {
+            "quest":"Biserica Ortodoxă Malankara activează în:",
+            "a":"a) China ",
+            "b":"b) India",
+            "c":"c) Japonia",
+            "d":"d) Laos",
+            "id":"2"
+        },
+        {
+            "quest":"Craterele de impact botezate de astronomi Brahms și Bach se află pe:",
+            "a":"a) Lună",
+            "b":"b) Venus",
+            "c":"c) Marte",
+            "d":"d) Mercur",
+            "id":"4"
+        },
+        {
+            "quest":"Ce rege persan a avut domnia cea mai lungă, de 46 de ani?",
+            "a":"a) Darius I",
+            "b":"b) Xerxe",
+            "c":"c) Cirus",
+            "d":"d) Artaxerxe II",
+            "id":"4"
+        },
+        {
+            "quest":"De unde provine, în sens pictural, denumirea de miniatură?",
+            "a":"a) de la dimensiunea picturii",
+            "b":"b) de la retabluri",
+            "c":"c) de la oxidul roșu de plumb",
+            "d":"d) de la anluminuri",
+            "id":"3"
+        },
+        {
+            "quest":"Cine a realizat seriile de sculpturi denumite 'mobiluri'?",
+            "a":"a) Alexander Calder ",
+            "b":"b) Michelangelo Buonarroti",
+            "c":"c) A Dimitrie Paciurea",
+            "d":"d) Henry Moore",
+            "id":"1"
+        }
+    ],
+    [
+        {
+            "quest":"Cum se numeşte soţia lui Rama din mitologia vedică?",
+            "a":"a) Kausalya",
+            "b":"b) Sirona",
+            "c":"c) Sura",
+            "d":"d) Sita",
+            "id":"4"
+        },
+        {
+            "quest":"Cine a avut inițiativa 'orei oficiale de vară'?",
+            "a":"a) Carl Sagan",
+            "b":"b) George Vernon Hudson",
+            "c":"c) Iulius Cezar",
+            "d":"d) Abraham-Louis Breguet",
+            "id":"2"
+        },
+        {
+            "quest":"Din câte provincii este constituită Thailanda?",
+            "a":"a) 76 ",
+            "b":"b) 48",
+            "c":"c) 63",
+            "d":"d) 56",
+            "id":"1"
+        },
+        {
+            "quest":"Aproximativ cât cântărește un pui de panda la naștere?",
+            "a":"a) 250 de grame",
+            "b":"b) 50 de grame",
+            "c":"c) 500 de grame",
+            "d":"d) 100 de grame",
+            "id":"4"
+        },
+        {
+            "quest":"Cât măsoară granița dintre Norvegia și Rusia?",
+            "a":"a) 1009 km",
+            "b":"b) 196 km",
+            "c":"c) 590 km",
+            "d":"d) 29 km",
+            "id":"2"
+        }
+    ],
+    [
+        {
+            "quest":"Florin este un bun Developer?",
+            "a":"a) DA",
+            "b":"b) NU EXISTA NU ",
+            "c":"c) Doar BUN ?",
+            "d":"d) CEL MAI BUN",
+            "id":"2"
+        },
+        {
+            "quest":"Florin este un bun Developer?",
+            "a":"a) DA",
+            "b":"b) NU EXISTA NU ",
+            "c":"c) Doar BUN ?",
+            "d":"d) CEL MAI BUN",
+            "id":"2"
+        },
+        {
+            "quest":"Florin este un bun Developer?",
+            "a":"a) DA",
+            "b":"b) NU EXISTA NU ",
+            "c":"c) Doar BUN ?",
+            "d":"d) CEL MAI BUN",
+            "id":"2"
+        },
+        {
+            "quest":"Florin este un bun Developer?",
+            "a":"a) DA",
+            "b":"b) NU EXISTA NU ",
+            "c":"c) Doar BUN ?",
+            "d":"d) CEL MAI BUN",
+            "id":"2"
+        },
+        {
+            "quest":"Florin este un bun Developer?",
+            "a":"a) DA",
+            "b":"b) NU EXISTA NU ",
+            "c":"c) Doar BUN ?",
+            "d":"d) CEL MAI BUN",
+            "id":"2"
+        }
+    ]
+    
+    
+    
+]
