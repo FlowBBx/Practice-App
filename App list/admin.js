@@ -38,7 +38,7 @@ async function addElement() {
   for (let val of concepts) {
     allConcepts.push(val.value);
   }
-  let description = document.querySelector("textarea");
+  let description = document.querySelector("#description").value;
   let link = document.getElementById("link").value;
 
   if (
