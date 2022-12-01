@@ -115,7 +115,7 @@ function help(i) {
     }
   } else if (i === 2) {
     if (help_2 === false) {
-      help_2 = true;
+      // help_2 = true;
       document.querySelector(".statistics").style.display = "flex";
       document.querySelector("#help2").style.backgroundColor = "red";
       console.log(arr);

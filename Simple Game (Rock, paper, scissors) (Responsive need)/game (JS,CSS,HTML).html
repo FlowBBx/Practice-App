@@ -14,6 +14,7 @@
         background-image: url("https://i.stack.imgur.com/p9mUO.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh
       }
       header {
         display: flex;
@@ -22,6 +23,7 @@
         font-weight: bold;
         padding: 30px;
         background-color: rgba(128, 128, 128, 0.384);
+        text-align: center;
       }
       main {
         display: flex;
@@ -91,6 +93,20 @@
         padding: 20px;
         border-radius: 5px;
       }
+@media  screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+  body {
+    height: 250vh;
+  }
+
+  h1, #result {
+    text-align: center;
+  }
+
+}
+
     </style>
     <script>
       let state = "";
@@ -117,7 +133,6 @@
       function play() {
         let TheMove = document.querySelector("#object").value;
         let computerMove = String(Math.floor(Math.random() * 3));
-        console.log(computerMove);
         if (computerMove === "0" && computerMove === state) {
           document.querySelector(
             "#imageOpponent"

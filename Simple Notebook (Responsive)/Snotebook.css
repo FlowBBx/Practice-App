@@ -9,8 +9,10 @@ header {
     margin-bottom:20px;
     padding:20px 0;
     font-family: Franklin Gothic Medium;
+    font-size: 30px;
     background:rgba(107, 166, 184, 0.329);
     color:white;
+    text-align: center;
 }
 
 * {
@@ -21,17 +23,21 @@ header {
 main{
     display:flex;
     justify-content:center;
+    align-items: center;
     background:rgba(107, 166, 184, 0.329);;
     padding:20px;
-    margin:0px 400px;
+    width: 300px;
+    margin:0px auto;
     border-radius:50px;
     
 }
 
 #check{
     display:flex;
-    margin:10px;
+    align-items:center;
     color:white;
+    width:30px;
+    margin:0 auto;
     
 }
 body {
@@ -41,17 +47,32 @@ body {
 }
 
 #check:hover {
-    color:green;
+    color:rgb(26, 213, 26);
     transition:0.3s;
     cursor:pointer;
     
 }
-#input {
-    margin: 0px 10px;
+input {
+    margin: 10px 10px;
+    width:200px;
+    height:25px;
+    border-radius: 5px;
 }
+
 label {
     color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    border-bottom: 1px solid green;
 }
+
+#elements {
+    width: 200px;
+}
+
 
 
 
