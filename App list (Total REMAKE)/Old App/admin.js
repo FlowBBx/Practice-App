@@ -25,25 +25,17 @@ function draw() {
 }
 
 async function addElement() {
-  let id = database.length + 1;
-  console.log(id);
   let appName = document.getElementById("appName").value;
   let difficulty = document.getElementById("difficulty").value;
   let concepts = document.querySelectorAll("#concepts");
   let allConcepts = [];
   let redInputs = document.querySelectorAll("input");
   let theError = [];
-  let img = [];
-  let images = document.querySelectorAll("#images")
-  console.log(img)
   for (let val of redInputs) {
     theError.push(val);
   }
   for (let val of concepts) {
     allConcepts.push(val.value);
-  }
-  for (let val of images) {
-    img.push(val.value);
   }
   let description = document.querySelector("#description").value;
   let link = document.getElementById("link").value;
@@ -72,12 +64,10 @@ async function addElement() {
         method: "POST",
         body: JSON.stringify({
           App: appName,
-          img: img,
           ConceptApp: allConcepts,
           Description: description,
           Difficulty: difficulty,
           link: link,
-          id: id,
         }),
       }
     );
@@ -86,11 +76,6 @@ async function addElement() {
         Concepts Applied:
             <input type="text" id="concepts">
             <button type="button" id="addInput" onclick="inputs()">+</button>
-        `;
-    document.querySelector("#lab").innerHTML = `
-        Concepts Applied:
-            <input type="text" id="images">
-            <button type="button" id="addInput" onclick="imag()">+</button>
         `;
   }
   getData();
@@ -103,7 +88,9 @@ function inputs() {
 }
 
 function imag() {
-  document.getElementById("images").insertAdjacentHTML("afterend", `<input type="text" id="images">`);
+  document
+    .getElementById("images")
+    .insertAdjacentHTML("afterend", `<input type="text" id="images">`);
 }
 // document.querySelector("#addInput").addEventListener("click", ()=> {
 //     document.getElementById("concepts").insertAdjacentHTML("afterend",`<input type="text" id="concepts">`)
@@ -111,7 +98,7 @@ function imag() {
 
 document.querySelector("h1").addEventListener("click", () => {
   if (confirm("You will logout, are u sure ?")) {
-    window.location.href = "NewApp.html";
+    window.location.href = "Project Apps.html";
   }
 });
 

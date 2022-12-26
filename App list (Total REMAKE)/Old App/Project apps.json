@@ -1,5 +1,5 @@
-[
-  {
+[ 
+  { "id": "1",
     "App": "Website (Scoala informala de IT)",
     "Difficulty": "5",
     "ConceptApp": [
@@ -21,59 +21,85 @@
       "JSON"
     ],
     "Description": "My final project from 'Scoala Informala de IT'... There I was learning about Web Development and I started to build Web apps and websites with good functionality and beautiful design",
-    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Final%20Project/homepage.html"
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Final%20Project/homepage.html",
+    "img": ["/images/Website/Website0.jpg","/images/Website/Website1.jpg","/images/Website/Website2.jpg"]
   },
-  {
+  {"id": "2",
     "App": "Phone number saver App (Scoala informala de IT)",
+    "img":["/images/Phone number saver App/PNSA0.png","/images/Phone number saver App/PNSA1.png","/images/Phone number saver App/PNSA2.png"],
     "Difficulty": "2",
     "ConceptApp": ["OPP", "ES5", "FlowControl", "CSS", "HTML"],
     "Description": "One of the firs aplication what we creatend on the course stage",
-    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects/Notebook/agenda.html"
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects%20Course/Notebook/agenda.html"
   },
   {
+    "id": "3",
     "App": "Shopping list (Scoala informala de IT)",
+    "img":["/images/Shopping list/SI0.png","/images/Shopping list/SI1.png","/images/Shopping list/SI2.png"],
     "Difficulty": "2",
     "ConceptApp": ["OPP", "ES5", "FlowControl", "CSS", "HTML", "Logical_ALG"],
     "Description": "This is another homework form the course stage",
-    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects/Shopping%20list/Shop.html"
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects%20Course/Shopping%20list/Shop.html"
   },
-  {
+  { "id": "4",
     "App": "Weather App (Scoala informala de IT)",
+    "img":["/images/Milionare Game/Milionare0.png","/images/Milionare Game/Milionare1.png","/images/Milionare Game/Milionare2.png"],
     "Difficulty": "3",
     "ConceptApp": ["AJAX", "json", "OPP", "FlowControl", "CSS", "HTML", "API"],
-    "Description": "The most complicated app form the course... it's not responsive because i didn't pratice enough CSS in that period",
-    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects/The%20weather/Vremea.html"
+    "Description": "The most complicated app form the course... it's  responsive",
+    "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Mini%20Projects%20Course/The%20weather/Vremea.html"
   },
-  {
+  { "id":"5",
+    "App": "Milionare game",
+    "img":["/images/Wheather App/W0.png","/images/Wheather App/W1.png","/images/Wheather App/W2.png"],
+    "Difficulty": "4",
+    "ConceptApp": ["Firebase",
+    "ES5",
+    "API",
+    "LocalStorage",
+    "FlowControl",
+    "CSS",
+    "HTML",
+    "Responsive",
+    "DOM"],
+    "Description": "Is one of my best app where i used lot of different concepts and i used to practice my CSS skills. ",
+    "link": "https://flowbbx.github.io/Practice-App/Milionare%20game/Milionare.html"
+  },
+  { "id": "6",
     "App": "Simple Computer",
+    "img":["/images/Computer/Computer0.png","/images/Computer/Computer1.png","/images/Computer/Computer2.png"],
     "Difficulty": "1",
     "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
     "Description": "After the course i have created simple apps to practice my new skills",
     "link": "https://flowbbx.github.io/Practice-App/Simple%20Computer/Computer.html"
   },
-  {
+  { "id": "7",
     "App": "Simple Game (Rock, paper, scissors)",
     "Difficulty": "2",
+    "img":["/images/RSP/rsp0.png","/images/RSP/rsp1.png","/images/RSP/rsp2.png"],
     "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
     "Description": "After the course i have created simple apps to practice my new skills",
     "link": "https://flowbbx.github.io/Practice-App/Simple%20Game%20(Rock,%20paper,%20scissors)/game%20(JS,CSS,HTML).html"
   },
-  {
+  { "id": "8",
     "App": "X and 0 Game",
     "Difficulty": "1",
+    "img":["/images/x & 0/x0.png","/images/x & 0/x1.png","/images/x & 0/x2.png"],
     "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
     "Description": "I have a little bug at thiss app, on the X.SVG item and i have to repair this(De refacut)",
     "link": "https://flowbbx.github.io/Practice-App/X%20and%200%20Game/X0.html"
   },
-  {
+  { "id": "9",
     "App": "Simple Notebook",
+    "img":["/images/NoteApp/Note1.png","/images/NoteApp/Note2.png","/images/NoteApp/Note3.png"],
     "Difficulty": "1",
     "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
     "Description": "After the course i have created simple apps to practice my new skills",
     "link": "https://flowbbx.github.io/Practice-App/Simple%20Notebook/Snotebook.html"
   },
-  {
+  { "id": "10",
     "App": "Wheater App (Simple)",
+    "img":["/images/Wheather Simple App/w0/png","/images/Wheather Simple App/w1/png","/images/Wheather Simple App/w2/png"],
     "Difficulty": "2",
     "ConceptApp": ["AJAX", "json", "OPP", "FlowControl", "CSS", "HTML", "API"],
     "Description": "Is not responsive for moment and I'm still working for design.",

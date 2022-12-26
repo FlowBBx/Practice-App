@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+.header-container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 5px;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(187, 193, 199) 0%, rgb(225, 234, 238) 90%);
+}
+
+.hidden {
+    display: none;
+}
+
+.login {
+    border-radius: 10px;
+    background-color: rgba(94, 94, 94, 0.186);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.div-container-butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+}
+
+.button-match {
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    font-weight: bold;
+    border:1px transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.button-match:hover {
+    border:1px solid blue;
+    transition: 0.3s
+}
+
+.red{
+    border: 1px solid red;
+}
+
+h2 {
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manual-design-btn {
+    margin-right: 10px;
+}
+
+.ajust-col {
+    text-align: center;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-ajust {
+    min-width: 300px!important;
+    min-height: 650px;
+    padding:10px;
+    border: none!important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+}
+
+.card-difficulty-ajust{
+    color: Green;
+    margin-bottom:20px!important;
+    border: 1px solid green;
+    width: 100px;
+    margin: 0 auto;
+    background:rgba(0, 128, 0, 0.359);
+    border-radius:10px ;
+}
+
+.card-text-ajust {
+    min-height: 160px;
+    margin: 0 auto!important;
+    display:grid;
+    align-items:top;
+}
+
+.card-title-ajust {
+    min-height: 50px;
+    font-weight: bold;
+}
+
+.concept-text-ajust{
+    height:130px;
+    font-weight: bold;
+}

@@ -1,7 +1,9 @@
 * {
   margin: 0px;
 }
-
+body {
+  background: linear-gradient(90deg, #5e4e4e8f, #f8f8f8);
+}
 label {
   display: flex;
   margin: 10px auto;
@@ -29,7 +31,7 @@ textarea:hover {
 
 .color {
   color: red;
-} 
+}
 .border {
   border-color: red;
 }
@@ -41,8 +43,8 @@ header {
   align-items: center;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: rgba(115, 146, 164, 0.396);
-  background: radial-gradient(circle at 18.7% 37.8%, rgb(187, 193, 199) 0%, rgb(225, 234, 238) 90%);
+  background: #00000091;
+  color: white;
 }
 
 .hidden {
@@ -70,7 +72,7 @@ main {
   margin: 40px auto;
   max-width: 300px;
   padding: 10px;
-  background: #b6b4b49c;
+  background: #816f6f82;
   border-radius: 20px;
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,

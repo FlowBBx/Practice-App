@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="Admin.css" />
     <title>Admin</title>
   </head>
+
+ 
   <body onload="getData()" >
+    
     <header>
       <h1>Admin</h1>
       <button type="button" id="s" onclick="showProjects()">
         Show Projects
       </button>
     </header>
-    
     <main>
+      <div class="o">RECONSTRUCT</div>
       <form action="">
         <label for="Aplication name">
           Aplication name:
@@ -30,11 +33,6 @@
           Concepts Applied:
           <input type="text" id="concepts" />
           <button type="button" id="addInput" onclick="inputs()">+</button>
-        </label>
-        <label for="" id="lab">
-          Images link:
-          <input type="text" id="images" />
-          <button type="button" id="addInput" onclick="imag()">+</button>
         </label>
         <label>
           Description:
