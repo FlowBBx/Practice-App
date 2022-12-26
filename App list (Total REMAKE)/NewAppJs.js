@@ -20,7 +20,7 @@ function draw() {
     for(let [i, p] of Object.entries(database)) {
         draw.innerHTML += 
         `
-        <div class="col ajust-col" ">
+        <div class="col ajust-col">
             <div class="card card-ajust" style="width: 21rem;">
             <div id="${database[i].id}" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
