@@ -84,7 +84,7 @@
   { "id": "8",
     "App": "X and 0 Game",
     "Difficulty": "1",
-    "img":["/images/x&0/x0.png","/images/x&0/x1.png","/images/x&0/x2.png"],
+    "img":["/images/xando/xi.png","/images/xando/xii.png","/images/xando/xiii.png"],
     "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
     "Description": "I have a little bug at thiss app, on the X.SVG item and i have to repair this(De refacut)",
     "link": "https://flowbbx.github.io/Practice-App/X%20and%200%20Game/X0.html"
