@@ -25,13 +25,13 @@ function draw() {
             <div id="${database[i].id}" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="${database[i].img[0]}" class="d-block w-100"  alt="...">
+                  <img src="${database[i].img[0]}" class="d-block w-100 image-ajust"  alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="${database[i].img[1]}" class="d-block w-100" alt="...">
+                  <img src="${database[i].img[1]}" class="d-block w-100 image-ajust" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="${database[i].img[2]}" class="d-block w-100" alt="...">
+                  <img src="${database[i].img[2]}" class="d-block w-100 image-ajust" alt="...">
                 </div>
               </div>
             <a class="carousel-control-prev" href="#${database[i].id}" role="button" data-slide="prev">
