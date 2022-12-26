@@ -22,7 +22,7 @@
     ],
     "Description": "My final project from 'Scoala Informala de IT'... There I was learning about Web Development and I started to build Web apps and websites with good functionality and beautiful design",
     "link": "https://flowbbx.github.io/Scoala-informala-de-IT/Final%20Project/homepage.html",
-    "img": ["/images/Website/Website0.jpg","/images/Website/Website1.jpg","/images/Website/Website2.jpg"]
+    "img": ["/images/Website/Website0.png","/images/Website/Website1.png","/images/Website/Website2.png"]
   },
   {"id": "2",
     "App": "Phone number saver App (Scoala informala de IT)",
@@ -99,7 +99,7 @@
   },
   { "id": "10",
     "App": "Wheater App (Simple)",
-    "img":["/images/Wheather Simple App/w0/png","/images/Wheather Simple App/w1/png","/images/Wheather Simple App/w2/png"],
+    "img":["/images/Wheather Simple App/w0.png","/images/Wheather Simple App/w1.png","/images/Wheather Simple App/w2.png"],
     "Difficulty": "2",
     "ConceptApp": ["AJAX", "json", "OPP", "FlowControl", "CSS", "HTML", "API"],
     "Description": "Is not responsive for moment and I'm still working for design.",
