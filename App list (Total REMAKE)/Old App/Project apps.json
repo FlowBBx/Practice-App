@@ -76,7 +76,7 @@
   { "id": "7",
     "App": "Simple Game (Rock, paper, scissors)",
     "Difficulty": "2",
-    "img":["/images/RSP/rsp0.png","/images/RSP/rsp1.png","/images/RSP/rsp2.png"],
+    "img":["/images/RSP/rps0.png","/images/RSP/rps1.png","/images/RSP/rps2.png"],
     "ConceptApp": ["CSS", "HTML", "javascript", "DOM"],
     "Description": "After the course i have created simple apps to practice my new skills",
     "link": "https://flowbbx.github.io/Practice-App/Simple%20Game%20(Rock,%20paper,%20scissors)/game%20(JS,CSS,HTML).html"

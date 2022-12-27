@@ -25,13 +25,13 @@ function draw() {
             <div id="${database[i].id}" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="${database[i].img[0]}" class="d-block w-100 image-ajust"  alt="...">
+                  <img src="./${database[i].img[0]}" class="d-block w-100 image-ajust"  alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="${database[i].img[1]}" class="d-block w-100 image-ajust" alt="...">
+                  <img src="./${database[i].img[1]}" class="d-block w-100 image-ajust" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="${database[i].img[2]}" class="d-block w-100 image-ajust" alt="...">
+                  <img src="./${database[i].img[2]}" class="d-block w-100 image-ajust" alt="...">
                 </div>
               </div>
             <a class="carousel-control-prev" href="#${database[i].id}" role="button" data-slide="prev">
@@ -48,7 +48,7 @@ function draw() {
                     <h6 class="card-title card-difficulty-ajust">${difficulty[database[i].Difficulty ]}</h6>
                     <p class="card-text card-text-ajust">${database[i].Description}</p>
                     <p id="concepts" class="card-text concept-text-ajust"></p>
-                    <a href="#" class="btn btn-primary">Try link</a>
+                    <a href="${database[i].link}" class="btn btn-primary">Try link</a>
                 </div>
             </div>
         </div>  
