@@ -104,7 +104,7 @@ async function match() {
     console.log(loginResponse)
 
     if (username === loginResponse.Username && password === loginResponse.Password) {
-      window.open("Admin.html", "_self")
+      window.open("./Admin.html", "_self")
     } else {
       document.querySelector("#input1").classList.add("red")
       document.querySelector("#input2").classList.add("red")
